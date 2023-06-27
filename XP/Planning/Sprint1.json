@@ -1,0 +1,159 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Gestor, Developer, Coach"
+      },
+      "category": "Designing",
+      "creation_time": "2023-06-27T00:45:42.549Z",
+      "description": {
+        "content": "Se diseñará un diagrama que explique el funcionamiento del programa en un alto nivel de abstracción, obteniendo así el diagrama conceptual del programa.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 0h45min",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Abstracción del problema"
+    },
+    {
+      "assignedTo": {
+        "name": "Gestor, Tester"
+      },
+      "category": "Designing",
+      "creation_time": "2023-06-27T01:02:07.639Z",
+      "description": {
+        "content": "Se analizarán las historias de usuario para definir y generar los casos de prueba del programa.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 1h30min",
+        "mime": "text/markdown"
+      },
+      "id": "6",
+      "references": [],
+      "title": "Análisis del diseño"
+    },
+    {
+      "assignedTo": {
+        "name": "Developer, Coach"
+      },
+      "category": "Coding",
+      "creation_time": "2023-06-27T01:10:12.655Z",
+      "description": {
+        "content": "Se generará una primera iteración del código del programa que sea estable y funcional.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo Estimado: 5h00min",
+        "mime": "text/markdown"
+      },
+      "id": "8",
+      "references": [],
+      "title": "Codificación del Prototipo del Programa"
+    },
+    {
+      "assignedTo": {
+        "name": "Coach"
+      },
+      "category": "Designing",
+      "creation_time": "2023-06-27T01:07:09.569Z",
+      "description": {
+        "content": "Se generará un diagrama UML que sirva de orientación para la generación de código.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 1h30min",
+        "mime": "text/markdown"
+      },
+      "id": "7",
+      "references": [],
+      "title": "Diagramado"
+    },
+    {
+      "assignedTo": {
+        "name": "Gestor"
+      },
+      "category": "Planninng",
+      "creation_time": "2023-06-27T00:36:53.785Z",
+      "description": {
+        "content": "Se generará un manual de usuario para el cliente, en donde se explique como usar la aplicación.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 1h00min",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Generar Manual Usuario"
+    },
+    {
+      "creation_time": "2023-06-27T00:41:49.864Z",
+      "id": "4",
+      "references": [],
+      "title": "Generar plan de lanzamiento"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Gestor, Developer, Coach, Tester"
+      },
+      "category": "Planning",
+      "creation_time": "2023-06-27T00:35:30.918Z",
+      "description": {
+        "content": "Se generará una reunión para generar los documentos de estándares de programación y realizar la planeación de los sprints del proyecto.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo Estimado: 3h00min",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Juego de la planificación"
+    },
+    {
+      "assignedTo": {
+        "name": "Gestor, Cliente"
+      },
+      "category": "Planning",
+      "creation_time": "2023-06-27T00:41:07.592Z",
+      "description": {
+        "content": "Se agendará una reunión con el cliente para receptar sus requisitos y poder plasmarlos en la aplicación. ",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 1h30min",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Reunión inicial con el cliente"
+    }
+  ],
+  "testing": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Gestor, Developer, Coach, Tester"
+      },
+      "category": "Planning",
+      "creation_time": "2023-06-27T01:26:10.717Z",
+      "description": {
+        "content": "Se definirán los roles de los integrantes del equipo, generando la metáfora del mismo.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo Estimado: 0h30min",
+        "mime": "text/markdown"
+      },
+      "id": "9",
+      "references": [],
+      "title": "Reunión inicial con el equipo"
+    }
+  ]
+}

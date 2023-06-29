@@ -39,24 +39,6 @@
     },
     {
       "assignedTo": {
-        "name": "Gestor, Developer, Coach, Tester"
-      },
-      "category": "Planning",
-      "creation_time": "2023-06-27T00:35:30.918Z",
-      "description": {
-        "content": "Se generará una reunión para generar los documentos de estándares de programación y realizar la planeación de los sprints del proyecto tomando como referencia el backlog de tareas del proyecto.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo Estimado: 2h00min",
-        "mime": "text/markdown"
-      },
-      "id": "1",
-      "references": [],
-      "title": "Juego de la planificación"
-    },
-    {
-      "assignedTo": {
         "name": "Developer, Coach"
       },
       "category": "Coding",
@@ -66,12 +48,12 @@
         "mime": "text/markdown"
       },
       "details": {
-        "content": "Tiempo Estimado: 5h00min",
+        "content": "Tiempo Estimado: 3h00min",
         "mime": "text/markdown"
       },
       "id": "8",
       "references": [],
-      "title": "Programación"
+      "title": "Programación (Prototipo)"
     },
     {
       "assignedTo": {
@@ -90,7 +72,9 @@
       "id": "9",
       "references": [],
       "title": "Reunión inicial con el equipo"
-    },
+    }
+  ],
+  "testing": [
     {
       "assignedTo": {
         "name": "Tester"
@@ -108,26 +92,24 @@
       "id": "6",
       "references": [],
       "title": "Análisis de pruebas"
-    }
-  ],
-  "testing": [
+    },
     {
       "assignedTo": {
-        "name": "Gestor, Cliente"
+        "name": "Gestor, Developer, Coach, Tester"
       },
       "category": "Planning",
-      "creation_time": "2023-06-27T00:41:07.592Z",
+      "creation_time": "2023-06-27T00:35:30.918Z",
       "description": {
-        "content": "Se agendará una reunión con el cliente para receptar sus requisitos y poder plasmarlos en la aplicación. Se generará las historias de usuario y los criterios de aceptación.",
+        "content": "Se generará una reunión para generar los documentos de estándares de programación y realizar la planeación de los sprints del proyecto tomando como referencia el backlog de tareas del proyecto.",
         "mime": "text/markdown"
       },
       "details": {
-        "content": "Tiempo estimado: 2h00min",
+        "content": "Tiempo Estimado: 2h00min",
         "mime": "text/markdown"
       },
-      "id": "3",
+      "id": "1",
       "references": [],
-      "title": "Reunión inicial con el cliente"
+      "title": "Juego de la planificación"
     }
   ],
   "done": [
@@ -148,6 +130,24 @@
       "id": "5",
       "references": [],
       "title": "Abstracción del problema"
+    },
+    {
+      "assignedTo": {
+        "name": "Gestor, Cliente"
+      },
+      "category": "Planning",
+      "creation_time": "2023-06-27T00:41:07.592Z",
+      "description": {
+        "content": "Se agendará una reunión con el cliente para receptar sus requisitos y poder plasmarlos en la aplicación. Se generará las historias de usuario y los criterios de aceptación.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 2h00min",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Reunión con el cliente"
     }
   ]
 }

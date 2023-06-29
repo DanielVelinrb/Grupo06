@@ -5,7 +5,9 @@ se muestran 4 opciones para que el usuario pueda seleccionar que operaciòn dese
 def mostrar_menu():
     print("==== Calculadora ====")
     print("1. Operaciones matemáticas básicas")
-    print("2. Salir")
+    print("2. Operaciones trigonométricas")
+    print("3. Resolver sistema de ecuaciones de segundo grado")
+    print("4. Salir")
 
 
 """Funciòn para realizar operaciones matemàticas bàsicas, 
@@ -33,6 +35,51 @@ def realizar_operaciones_basicas():
         print("El resultado es: {:.2f}".format(resultado))
 
 
+"""Funciòn para realizar operaciones trigonometricas,
+el ususario ingresarà el valor del àngulo en grados, luego se despliega un menù
+en el cual se elegirà que funciòn usar para el àngulo proporcionado.
+"""
+def realizar_operaciones_trigonometricas():
+    angulo = float(input("Introduce el valor del ángulo en grados: "))
+    opcion = int(input("Elige una opción:\n1. Seno\n2. Coseno\n3. Tangente\n"))
+    
+    resultado = None
+    if opcion == 1:
+        resultado = seno(angulo)
+    elif opcion == 2:
+        resultado = coseno(angulo)
+    elif opcion == 3:
+        resultado = tangente(angulo)
+    else:
+        print("Opción inválida. Introduce una opción válida.")
+    
+    if resultado is not None:
+        print("El resultado es: {:.2f}".format(resultado))
+
+
+"""Funciòn para resolver un sistema de ecuaciones, 
+el ususario proporciona los coeficientes de cada ecuaciòn, 
+el sistema proporciona la respuesta si tiene soluciòn ùnica, 
+sino se proporciona un mensaje."""
+def resolver_sistema_ecuaciones():
+    print("Ingrese los coeficientes para la primera ecuación (ax + by = c):")
+    a1 = float(input("a: "))
+    b1 = float(input("b: "))
+    c1 = float(input("c: "))
+
+    print("Ingrese los coeficientes para la segunda ecuación (ax + by = c):")
+    a2 = float(input("a: "))
+    b2 = float(input("b: "))
+    c2 = float(input("c: "))
+
+    x, y = resolver_ecuaciones(a1, b1, c1, a2, b2, c2)
+
+    if x is None or y is None:
+        print("El sistema de ecuaciones no tiene solución única.")
+    else:
+        print("El valor de x es: {:.2f}".format(x))
+        print("El valor de y es: {:.2f}".format(y))
+
 
 """Funciòn que recibe dos numeros de tipo flotante y retorna la suma de los dos nùmeros"""
 def suma(num1, num2):
@@ -53,13 +100,45 @@ def division(num1, num2):
         return None
     return num1 / num2
 
+"""Funciòn que recibe un nùmero de tipo flotante y retorna el seno del nùmero ingresado."""
+def seno(angulo):
+    return math.sin(math.radians(angulo))
+
+"""Funciòn que recibe un nùmero de tipo flotante y retorna el coseno del nùmero ingresado."""
+def coseno(angulo):
+    return math.cos(math.radians(angulo))
+
+"""Funciòn que recibe un nùmero de tipo flotante y retorna el tangente del nùmero ingresado."""
+def tangente(angulo):
+    return math.tan(math.radians(angulo))
+
+"""Funciòn que recibe 6 coeficientes de tipo flotante y retorna el valor de la soluciòn x, y."""
+def resolver_ecuaciones(a1, b1, c1, a2, b2, c2):
+    determinante = a1 * b2 - a2 * b1
+
+    if determinante == 0:
+        return None, None
+
+    x = (c1 * b2 - c2 * b1) / determinante
+    y = (a1 * c2 - a2 * c1) / determinante
+
+    return x, y
 
 continuar = True
+
+
 while continuar:
     mostrar_menu()
     opcion = int(input("Elige una opción (1-4): "))
-    if opcion == 1:
-        realizar_operaciones_basicas()
-    elif opcion == 2:
+    if opcion == 4:
         print("¡Hasta luego!")
         continuar = False
+    else:
+        if opcion == 1:
+            realizar_operaciones_basicas()
+        elif opcion == 2:
+            realizar_operaciones_trigonometricas()
+        elif opcion == 3:
+            resolver_sistema_ecuaciones()
+        else:
+            print("Opción inválida. Introduce un número válido.")

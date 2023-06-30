@@ -1,8 +1,8 @@
-## Nombre Del Equipo
+## Los Peaky Blinders
 
 # Metafora:
 
-### Steven Zambrano (Cliente, Entrenador): 
-### Gestor (Daniel Velin):
-### Developer (Edison Sánchez):
-### Tester (Fausto Román):
+### Steven Zambrano (Cliente, Entrenador): Valdivieso
+### Gestor (Daniel Velin): Rivera
+### Developer (Edison Sánchez): Zambrano
+### Tester (Fausto Román): Paz

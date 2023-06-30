@@ -1,80 +1,80 @@
 <mxfile host="65bd71144e">
     <diagram id="vrU-LEbFQsbC8KEXVbcU" name="Page-1">
-        <mxGraphModel dx="986" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="Sprint 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="425" y="40" width="60" height="30" as="geometry"/>
+                <mxCell id="5" value="Sprint 1. 27/06/2023 - 28/06/2023" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="40" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Designing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="6" value="Designing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="115" y="180" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" vertex="1" parent="1">
+                <mxCell id="7" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" parent="1" vertex="1">
                     <mxGeometry x="110" y="110" width="70" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Coding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="8" value="Coding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="115" y="300" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" vertex="1" parent="1">
+                <mxCell id="9" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" parent="1" vertex="1">
                     <mxGeometry x="110" y="230" width="70" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
+                <mxCell id="13" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
                     <mxGeometry x="230" y="120" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Diagrama Conceptual" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="14" value="Diagrama Conceptual" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="260" y="140" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
+                <mxCell id="15" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
                     <mxGeometry x="400" y="120" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Diagrama UML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="16" value="Diagrama UML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="140" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
+                <mxCell id="17" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
                     <mxGeometry x="570" y="120" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Casos Prueba" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="18" value="Casos Prueba" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="600" y="140" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
+                <mxCell id="19" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
                     <mxGeometry x="700" y="230" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Programación Prototipo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="20" value="Programación Prototipo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="730" y="250" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="Sprint 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="350" width="60" height="30" as="geometry"/>
+                <mxCell id="22" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="430" width="70" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="390" width="70" height="70" as="geometry"/>
+                <mxCell id="23" value="Coding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="500" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Coding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="115" y="460" width="60" height="30" as="geometry"/>
+                <mxCell id="25" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="550" width="70" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="image;image=img/lib/atlassian/Trello_Logo.svg;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="510" width="70" height="70" as="geometry"/>
+                <mxCell id="27" value="Testing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="620" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Testing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="115" y="580" width="60" height="30" as="geometry"/>
+                <mxCell id="28" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="440" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
-                    <mxGeometry x="210" y="400" width="120" height="70" as="geometry"/>
+                <mxCell id="29" value="Programación&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="460" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="Programación&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="420" width="60" height="30" as="geometry"/>
+                <mxCell id="30" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="440" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
-                    <mxGeometry x="395" y="400" width="120" height="70" as="geometry"/>
+                <mxCell id="31" value="Pruebas unitarias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="460" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="Pruebas unitarias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="425" y="420" width="60" height="30" as="geometry"/>
+                <mxCell id="32" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="540" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="1">
-                    <mxGeometry x="570" y="500" width="120" height="70" as="geometry"/>
+                <mxCell id="33" value="Pruebas de aceptación" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="560" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Pruebas de aceptación" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="520" width="60" height="30" as="geometry"/>
+                <mxCell id="34" value="Sprint 2. 29/06/2023 - 30/06/2023" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="390" width="190" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

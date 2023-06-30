@@ -1,144 +1,34 @@
 {
   "todo": [],
-  "in-progress": [
+  "in-progress": [],
+  "testing": [],
+  "done": [
     {
-      "assignedTo": {
-        "name": "Coach"
-      },
-      "category": "Designing",
-      "creation_time": "2023-06-27T01:07:09.569Z",
-      "description": {
-        "content": "Se generará un diagrama UML que sirva de orientación para la generación de código.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo estimado: 1h30min",
-        "mime": "text/markdown"
-      },
-      "id": "7",
-      "references": [],
-      "title": "Diagramado del programa"
-    },
-    {
-      "creation_time": "2023-06-27T00:41:49.864Z",
-      "id": "4",
-      "references": [],
-      "title": "Generación de tareas",
       "assignedTo": {
         "name": "Gestor"
       },
+      "category": "Testing",
+      "creation_time": "2023-06-29T13:28:07.373Z",
       "description": {
-        "content": "Se describirá el contexto y funcionalidades del proyecto a través de un release plan. Así también se creará un Backlog con las actividades que se deben cumplir. Estas actividades serán representadas como tarjetas. ",
+        "content": "Se generará un manual de usuario para que el cliente tenga noción de las funcionalidades del programa. ",
         "mime": "text/markdown"
       },
       "details": {
-        "content": "Tiempo estimado: 2h00min",
+        "content": "Tiempo estimado: 1h00min",
         "mime": "text/markdown"
       },
-      "category": "Planning"
+      "id": "4",
+      "references": [],
+      "title": "Documentación del Programa"
     },
     {
       "assignedTo": {
         "name": "Developer, Coach"
       },
       "category": "Coding",
-      "creation_time": "2023-06-27T01:10:12.655Z",
+      "creation_time": "2023-06-29T13:20:51.093Z",
       "description": {
-        "content": "Se generará una primera iteración del código del programa que sea estable y funcional. Este código debe ser de propiedad colectiva para cada uno de los integrantes del proyecto (mediante software de control de versiones).",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo Estimado: 3h00min",
-        "mime": "text/markdown"
-      },
-      "id": "8",
-      "references": [],
-      "title": "Programación (Prototipo)"
-    },
-    {
-      "assignedTo": {
-        "name": "Gestor, Developer, Coach, Tester"
-      },
-      "category": "Planning",
-      "creation_time": "2023-06-27T01:26:10.717Z",
-      "description": {
-        "content": "Se definirán los roles de los integrantes del equipo, generando la metáfora del mismo.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo Estimado: 0h30min",
-        "mime": "text/markdown"
-      },
-      "id": "9",
-      "references": [],
-      "title": "Reunión inicial con el equipo"
-    }
-  ],
-  "testing": [
-    {
-      "assignedTo": {
-        "name": "Tester"
-      },
-      "category": "Designing",
-      "creation_time": "2023-06-27T01:02:07.639Z",
-      "description": {
-        "content": "Se analizarán las historias de usuario para definir y generar los casos de prueba del programa.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo estimado: 1h30min",
-        "mime": "text/markdown"
-      },
-      "id": "6",
-      "references": [],
-      "title": "Análisis de pruebas"
-    }
-  ],
-  "done": [
-    {
-      "assignedTo": {
-        "name": "Gestor, Developer, Coach"
-      },
-      "category": "Designing",
-      "creation_time": "2023-06-27T00:45:42.549Z",
-      "description": {
-        "content": "Se diseñará un diagrama que explique el funcionamiento del programa en un alto nivel de abstracción, obteniendo así el diagrama conceptual del programa.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo estimado: 0h45min",
-        "mime": "text/markdown"
-      },
-      "id": "5",
-      "references": [],
-      "title": "Abstracción del problema"
-    },
-    {
-      "assignedTo": {
-        "name": "Gestor, Cliente"
-      },
-      "category": "Planning",
-      "creation_time": "2023-06-27T00:41:07.592Z",
-      "description": {
-        "content": "Se agendará una reunión con el cliente para receptar sus requisitos y poder plasmarlos en la aplicación. Se generará las historias de usuario y los criterios de aceptación.",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Tiempo estimado: 2h00min",
-        "mime": "text/markdown"
-      },
-      "id": "3",
-      "references": [],
-      "title": "Reunión con el cliente"
-    },
-    {
-      "assignedTo": {
-        "name": "Gestor, Developer, Coach, Tester"
-      },
-      "category": "Planning",
-      "creation_time": "2023-06-27T00:35:30.918Z",
-      "description": {
-        "content": "Se generará una reunión para generar los documentos de estándares de programación y realizar la planeación de los sprints del proyecto tomando como referencia el backlog de tareas del proyecto.",
+        "content": "Se generará una segunda iteración del código del programa, debe ser de propiedad colectiva para los integrantes del proyecto, integrando los aportes de cada responsable de la tarea para así visualizar la refactorización realizada",
         "mime": "text/markdown"
       },
       "details": {
@@ -147,7 +37,43 @@
       },
       "id": "1",
       "references": [],
-      "title": "Juego de la planificación"
+      "title": "Programación (Finalización)"
+    },
+    {
+      "assignedTo": {
+        "name": "Developer, Coach, Tester"
+      },
+      "category": "Coding",
+      "creation_time": "2023-06-29T13:24:43.815Z",
+      "description": {
+        "content": "Se analizará mediante pruebas unitarias que el código sea cumpla con los criterios de aceptación del cliente. ",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 1h30min",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Testeo versión de Código"
+    },
+    {
+      "assignedTo": {
+        "name": "Cliente, Tester"
+      },
+      "category": "Testing",
+      "creation_time": "2023-06-29T13:26:02.544Z",
+      "description": {
+        "content": "Se tendrá una reunión con el cliente en la que se realizarán las pruebas funcionales.",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Tiempo estimado: 0h30min",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Validación con el Cliente"
     }
   ]
 }
